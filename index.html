@@ -4,9 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Awesome Website</title>
+    
+    <!-- 🔗 THIS LINE LINKS THE HTML TO THE CSS -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <p>If you can see this, your website is working!</p>
+    
+    <!-- HEADER: The top part of the page -->
+    <header class="main-header">
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT: The main body of the page -->
+    <main class="container">
+        <h2>Welcome Section!</h2>
+        <p>This paragraph is controlled by the HTML, but its color, size, and font are controlled by the CSS file.</p>
+        
+        <!-- A button element that we will style -->
+        <button class="cta-button">Learn More</button>
+    </main>
+
+    <!-- FOOTER: The bottom part of the page -->
+    <footer>
+        <p>&copy; 2024 My Awesome Website</p>
+    </footer>
+
 </body>
 </html>
